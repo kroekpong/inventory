@@ -47,8 +47,8 @@ $(document).ready(function(){
 	
 //	localStorage.clear();
 	
-	_checkOnline();
-    var refreshId = setInterval( function(){
-    	_checkOnline();
-    }, 10000);
+//	_checkOnline();
+//    var refreshId = setInterval( function(){
+//    	_checkOnline();
+//    }, 10000);
 });

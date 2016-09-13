@@ -21,7 +21,7 @@
 			<AppenderRef ref="Console" />
 		</Logger>
 		
-		<Logger name="th.go.excise" level="debug" additivity="false">
+		<Logger name="th.co.saic" level="debug" additivity="false">
 			<AppenderRef ref="Console" />
 		</Logger>
 		

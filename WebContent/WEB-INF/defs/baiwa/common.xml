@@ -10,9 +10,23 @@
 	<definition name="signin" template="/WEB-INF/jsp/signin.jsp" />
 	<definition name="signout" template="/WEB-INF/jsp/signout.jsp" />
 	
-	<definition name="searchByRegId" template="/WEB-INF/jsp/poc/searchByRegId.jsp" />
-	<definition name="searchByDate" template="/WEB-INF/jsp/poc/searchByDate.jsp" />
-	<definition name="report" template="/WEB-INF/jsp/poc/report.jsp" />
-	<definition name="import" template="/WEB-INF/jsp/poc/import.jsp" />
+
+	<!-- inventory/stock management -->
+	
+	<!-- History -->
+	<definition name="asset_history" template="/WEB-INF/jsp/inv/history/asset_history.jsp" />
+	<definition name="claim_history" template="/WEB-INF/jsp/inv/history/claim_history.jsp" />
+
+	
+	
+	<!-- Management -->
+<!-- 	<definition name="asset_history" template="/WEB-INF/jsp/inv/history/asset_history.jsp" /> -->
+	
+	
+	<!-- Maintenance -->
+	<definition name="themes_setting" template="/WEB-INF/jsp/inv/maintain/themes_setting.jsp" />
+
+	
+	
 	
 </tiles-definitions>

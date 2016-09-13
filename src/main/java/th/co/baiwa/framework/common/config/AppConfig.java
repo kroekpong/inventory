@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 	useDefaultFilters = false,
 	basePackages = {
 		"th.co.baiwa.framework",
-		"th.go.excise.poc"
+		"th.co.saic"
 	},
 	includeFilters = {
 		@ComponentScan.Filter(

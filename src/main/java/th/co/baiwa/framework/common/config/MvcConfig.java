@@ -30,7 +30,7 @@ import com.google.gson.GsonBuilder;
 	useDefaultFilters = false,
 	basePackages = {
 		"th.co.baiwa.framework",
-		"th.go.excise.poc"
+		"th.co.saic"
 	},
 	includeFilters = {
 		@ComponentScan.Filter(

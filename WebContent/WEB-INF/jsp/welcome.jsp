@@ -4,16 +4,35 @@
 
 <html>
 <head>
-	<title>Excise Mobile POC</title>
+	<title>Inventory Management</title>
 
-	<%@include file="/WEB-INF/jsp/poc/common.jsp" %>
+	<%@include file="/WEB-INF/jsp/inv/common.jsp" %>
 
 </head>
 
-<body>
+<style>
+
+body {
+/* 	background: #f1f4f7; */
+	padding-top: 50px;
+	margin-top: 0;
+	color: #5f6468;
+	height: 100%;
+	width: 100%;
+ 	background-image: url(${cPath}/resources/images/bg.png);  
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 80%;
+	background-attachment: fixed;
+}
+
+</style>
+
+<!-- <body> -->
+<body class="with-side-menu" id="body"> 
 
 	<!--  --- MENU --- -->
-	<%@include file="/WEB-INF/jsp/poc/menu.jsp" %>
+	<%@include file="/WEB-INF/jsp/inv/menu.jsp" %>
 	
 </body>
 

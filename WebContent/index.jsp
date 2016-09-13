@@ -8,7 +8,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<!-- <meta http-equiv="refresh" content="2; URL=signin.htm"> -->
+<meta http-equiv="refresh" content="2; URL=signin.htm">
 
 <style>
 body {
