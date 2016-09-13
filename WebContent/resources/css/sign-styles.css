@@ -1,0 +1,13 @@
+.sign-box{
+/*     border: 1px solid #d8e2e7; */
+    padding: 10px;
+}
+.sign-img {
+    width: 100%;
+}
+
+body {
+/*     background: #0dc5c1; */
+    background: #428bca;
+    margin: 0 auto;
+}
