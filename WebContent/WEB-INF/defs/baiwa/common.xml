@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	
+	<!-- Welcome Page, After login success -->
+	<definition name="welcome" template="/WEB-INF/jsp/welcome.jsp" />
+	<definition name="signin" template="/WEB-INF/jsp/signin.jsp" />
+	<definition name="signout" template="/WEB-INF/jsp/signout.jsp" />
+	
+	<definition name="searchByRegId" template="/WEB-INF/jsp/poc/searchByRegId.jsp" />
+	<definition name="searchByDate" template="/WEB-INF/jsp/poc/searchByDate.jsp" />
+	<definition name="report" template="/WEB-INF/jsp/poc/report.jsp" />
+	<definition name="import" template="/WEB-INF/jsp/poc/import.jsp" />
+	
+</tiles-definitions>
