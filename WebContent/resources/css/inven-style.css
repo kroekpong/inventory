@@ -1,3 +1,8 @@
+.page-header {
+    padding-bottom: 0;
+    margin: 30px 0 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
 
 .section-tout {
 	padding: 4em 0 3em;
@@ -55,4 +60,9 @@
 
 .preview .options {
     height: 120px;
+}
+
+.line-txt {
+	text-decoration: line-through;
+}
 }

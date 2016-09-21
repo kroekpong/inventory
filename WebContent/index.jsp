@@ -8,19 +8,14 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<meta http-equiv="refresh" content="2; URL=signin.htm">
+<meta http-equiv="refresh" content="0; URL=login.htm">
 
-<style>
-body {
-    background: #428bca;
-}
-</style>
-<link href="resources/css/loading.css" rel="stylesheet" type="text/css" />
+<!-- <link href="resources/css/loading.css" rel="stylesheet" type="text/css" /> -->
 
 </head>
 <body>
 
-<div class="loader"></div>
+<!-- <div class="loader"></div> -->
 
 
 </body>

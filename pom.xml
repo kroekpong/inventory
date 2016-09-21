@@ -23,11 +23,12 @@
 		<slf4j.version>1.7.21</slf4j.version>
 		<log4j.version>2.5</log4j.version>
 		<spring.version>4.2.5.RELEASE</spring.version>
+		<spring.security.version>4.1.0.RELEASE</spring.security.version>
 		<gson.version>2.7</gson.version>
 		<mysql.version>5.1.35</mysql.version>
+		<jasperreport.version>6.1.0</jasperreport.version>
 		<tiles.version>3.0.5</tiles.version>
 		<jstl.version>1.2</jstl.version>
-		<!-- Servlet 3.0.1 -->
 		<servlet.version>3.0.1</servlet.version>
 		<jsp.version>2.2.1</jsp.version>
 		<junit.version>4.12</junit.version>
@@ -115,6 +116,34 @@
 			<scope>test</scope>
 		</dependency>
 		
+		<!-- Spring Security -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>${spring.security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<version>${spring.security.version}</version>
+			<scope>test</scope>
+		</dependency>
+		
 		<!-- Gson -->
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
@@ -176,7 +205,7 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 	</dependencies>
 	
 	<build>
@@ -240,4 +269,7 @@
 		</plugins>
 	</build>
 	
+	<organization>
+		<name>saicmotor-cp</name>
+	</organization>
 </project>

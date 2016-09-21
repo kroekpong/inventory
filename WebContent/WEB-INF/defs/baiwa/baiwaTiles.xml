@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	
+	<!-- Welcome Page, After login success -->
+	<definition name="home" template="/WEB-INF/jsp/welcome.jsp" />
+	<definition name="login" template="/WEB-INF/jsp/baiwa/security/signin.jsp" />
+	
+	
+</tiles-definitions>

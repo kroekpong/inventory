@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
-import th.co.baiwa.framework.common.persistence.dao.AbstractCommonJdbcDao;
+import th.co.baiwa.common.persistence.dao.AbstractCommonJdbcDao;
 
 @Repository("InventoryDao")
 public class InventoryDao extends AbstractCommonJdbcDao{
